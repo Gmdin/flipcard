@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-bg-color: pink;
+}
+
+header {
+  background-color: var(--main-bg-color);
+
+  height: 8vh;
+}
+
+.logo img {
+  height: 40px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 60px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+header nav ul li a {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: darkblue;
+}
+.inputs input {
+  width: 30vw;
+  height: 24px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.btn {
+  width: 73px;
+  height: 24px;
+  border-radius: 5px;
+  padding: auto;
+}
+.btn:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+.container {
+  min-height: 84vh;
+}
+.slidder {
+  width: 80vw;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.container h3 {
+  margin-left: 126px;
+}
+.ineer {
+  display: flex;
+  margin: 16px 115px;
+  overflow: scroll;
+}
+.card {
+  margin: 2px 14px;
+}
+.paragraph {
+  justify-content: center;
+  display: grid;
+}
+footer {
+  background-color: var(--main-bg-color);
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 770px) {
+  body {
+    background-color: brown;
+  }
+  header {
+    height: 15vh;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo img {
+    margin-left: 0px;
+    height: 26px;
+    justify-content: center;
+  }
+  .inputs input {
+    height: 22px;
+    width: 25vw;
+    margin-top: 9px;
+    margin-right: 9px;
+  }
+}
